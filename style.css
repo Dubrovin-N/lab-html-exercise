@@ -4,6 +4,9 @@ body {
   font-family: "Poppins";
 }
 
+header {
+  padding: 0px 25px;
+}
 header > div {
   padding: 0 25px;
   display: flex;
@@ -31,6 +34,79 @@ nav a {
 .blackHeart {
   width: 20px;
   margin-right: 1rem;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.logo-wrapper img {
+  height: 25px;
+  width: auto;
+}
+
+.search-form {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  margin: 0 40px;
+}
+
+.search-input-group {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  padding-left: 15px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* icon */
+#label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 10px;
+  background-color: transparent;
+}
+#label img {
+  width: 18px;
+  height: 18px;
+}
+
+#site-search {
+  flex: 1;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  background-color: transparent;
+  padding-right: 15px;
+}
+
+.search-btn {
+  height: 100%;
+  padding: 0 25px;
+  border: none;
+  font-weight: bold;
+  background-color: #fb3e44;
+  color: white;
+}
+
+/* Join & Log in */
+.cta-buttons {
+  display: flex;
+  gap: 20px;
+}
+.cta-buttons a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
 #first-section {

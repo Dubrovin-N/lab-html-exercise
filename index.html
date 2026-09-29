@@ -35,7 +35,8 @@
             <img src="./images/npm-logo.png" alt="npm logo">
         </div>
          <form role="search" action="/search" method="get" class="search-form">
-            <label for="site-search">
+            <div class="search-input-group">
+            <label id="label" for="site-search">
                 <img src="./images/magnifying-glass.png" alt="magnifying glass">
             </label>
             <input 
@@ -43,7 +44,10 @@
                 id="site-search" 
                 name="q" 
                 placeholder="Search packages">
-            <button type="submit">Search</button>
+
+
+            </div>   
+            <button type="submit" class="search-btn">Search</button>
         </form>
         <div class="cta-buttons">
             <a href="#" class="btn-join">Join</a>
